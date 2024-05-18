@@ -1,18 +1,12 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# How to run the project
 
 
-# How to run project
-``` bash
-npm i 
+1. Install dependencies
+```
+npm install
 ```
 
+2. Run the application
 
 ```bash
 npm run dev
@@ -21,36 +15,25 @@ npm run dev
 
 
 
-Музыкальное приложение "Spoty"
+Music Application "Spoty"
 
-Описание
-"Spoty" - это простое веб-приложение для просмотра информации о музыкальных альбомах и синглах, а также поиска альбомов по названию. Также имеется возможность регистрации и авторизации пользователей. Пользователи могут просматривать список альбомов, читать новости о выходе новых альбомов и использовать функцию поиска для быстрого поиска интересующих их альбомов.
-
-Настройка приложения
-
-1. Установка зависимостей
-```
-npm install
-```
-
-2. Запуск приложения
-```
-npm start
-```
+Description
+"Spoty" is a simple web application for viewing information about music albums and singles, as well as searching for albums by their title. It also features user registration and authentication. Users can browse the list of albums, read news about new album releases, and use the search function to quickly find albums of interest.
 
 
-## Процесс проектирования и разработки
 
-1. **Создание базового веб-макета**: 
-Было начато с создания основного макета приложения, который включал главную страницу с новостями о музыкальных альбомах и синглах.
-4. Добавлена функциональность для регистрации и входа пользователей. Реализованы формы `Signup` и `Login`, компоненты форм для ввода данных, настройка маршрутов и интеграция с бэкендом.
+## Design and Development Process
 
-2. **Разработка страницы детального просмотра альбома или сингла**: Затем разработала страницу для детального просмотра информации об альбоме или сингле, где пользователи могут увидеть дополнительные детали 
+1. **Creating the basic web layout**: 
+It started with creating the basic layout of the application, which included the main page with news about music albums and singles.
+4. Added functionality for user registration and login. Implemented `Signup` and `Login` forms, input data form components, route setup, and backend integration.
 
-3. **Реализация функции поиска**: Добавили функцию поиска, позволяющую пользователям находить альбомы по их названию.
+2. **Development of album or single detail view page**: Next, developed a page for detailed viewing of album or single information, where users can see additional details.
 
-## Компромиссы и проблемы
+3. **Implementation of search feature**: Added a search feature allowing users to find albums by their title.
 
-**Хранение данных**: Решено хранить информацию о музыкальных альбомах и синглах в JSON файле прямо внутри проекта для простоты. Однако, при увеличении объема данных это может стать неэффективным.
+## Compromises and Issues
 
-- **Отсутствие возможности оценки и оставления отзыва**: Из-за статичности JSON файла не было времени для реализации этой функциональности.
+**Data storage**: It was decided to store information about music albums and singles in a JSON file directly inside the project for simplicity. However, as the data volume increases, this may become inefficient.
+
+- **Lack of rating and review feature**: Due to the static nature of the JSON file, there was no time to implement this functionality.
